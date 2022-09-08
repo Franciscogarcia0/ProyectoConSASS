@@ -1,0 +1,41 @@
+@mixin margentamanos ($margenalto, $margenbajo){
+    margin-top: $margenalto;
+    margin-bottom: $margenbajo;
+    
+}
+    .divisor{
+        height: 15vh;
+        @include margentamanos (25px, 1.5rem);
+        
+        .title{
+            display: flex;
+            color: #0c0c0c;
+            font-size: 2.5rem;
+            justify-content: center;
+            margin-top: 25px;
+            margin-bottom:1.5rem;
+            font-weight: 500;
+            line-height: 1.2;
+
+        }
+
+    }
+
+    .divStaff{
+        background-color: #ffffff;
+        color: #0e0b16;
+        width: 80vw;
+        margin: 0 auto;
+        position: relative;
+        transform: translateY(-3rem);
+        padding: 3rem;
+        border-radius: 2rem;
+        box-shadow: 0.9px 1.1px 3.6px rgb(0 0 0 / 11%), 2.4px 3px 10px rgb(0 0 0 / 15%), 5.7px 7.2px 24.1px rgb(0 0 0 / 20%), 19px 24px 80px rgb(0 0 0 / 30%);
+        
+        .valores{
+            list-style-type: none;
+            line-height: 1.7;
+            padding-left: 0;
+        }
+    }
+

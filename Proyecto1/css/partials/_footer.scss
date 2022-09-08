@@ -1,0 +1,30 @@
+footer{
+    
+    background-color: black;
+    padding: 2rem;
+    justify-content: center;
+
+
+    .fa-envelope{
+        color: white;
+    }
+    .fa-instagram{
+        color:rgb(210, 38, 115) ;
+    }
+    .fa-whatsapp{
+        color: green;
+    }
+    .creditos{
+        color: white;
+    }
+   
+}
+.fa-whatsapp:hover{
+    color: rgb(2, 71, 2);
+}
+.fa-envelope:hover{
+    color: grey;
+}
+.fa-instagram:hover{
+    color: rgb(103, 3, 65);
+}

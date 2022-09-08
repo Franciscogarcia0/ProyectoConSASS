@@ -1,0 +1,32 @@
+@mixin paddingtamanos ($paddingalto , $paddingbajo){
+    padding-top: $paddingalto;
+    padding-bottom: $paddingbajo;
+    
+}
+
+.events{
+    @include paddingtamanos(0px, 6rem);
+    margin: 0 auto;
+    position: relative;
+    width: 80vw;
+    .inner{
+        display: flex;
+        padding: 2rem;
+        box-shadow: 0.9px 1.1px 3.6px rgb(0 0 0 / 11%), 2.4px 3px 10px rgb(0 0 0 / 15%), 5.7px 7.2px 24.1px rgb(0 0 0 / 20%), 19px 24px 80px rgb(0 0 0 / 30%);
+        border-radius: 2rem;
+        .inner__left{
+            padding-block: 2rem;
+            padding-right: 2rem;
+            flex: 1.5;
+        }
+        .inner__right{
+            flex: 1.25;
+            min-width: 0;
+            img{
+                max-width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+
+}
